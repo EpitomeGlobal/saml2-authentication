@@ -39,7 +39,7 @@ using static Saml2Authentication.Saml2Constants;
 
 namespace Saml2Authentication
 {
-    internal class Saml2Handler : RemoteAuthenticationHandler<Saml2Options>,
+    public class Saml2Handler : RemoteAuthenticationHandler<Saml2Options>,
         IAuthenticationSignOutHandler
     {
         private readonly ILogger<Saml2Handler> _logger;

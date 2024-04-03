@@ -22,7 +22,7 @@
 
 namespace Saml2Authentication
 {
-    internal class Artifact
+    public class Artifact
     {
         /// <summary>
         /// Gets or sets the type code value.

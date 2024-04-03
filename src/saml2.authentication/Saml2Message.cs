@@ -39,7 +39,7 @@ using static Saml2Authentication.Saml2Constants;
 
 namespace Saml2Authentication
 {
-    internal class Saml2Message : AuthenticationProtocolMessage
+    public class Saml2Message : AuthenticationProtocolMessage
     {
         #region Constructors
         public Saml2Message()
